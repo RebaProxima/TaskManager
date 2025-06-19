@@ -1,0 +1,82 @@
+.signup-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: rgb(20, 20, 20);
+  color: rgb(230, 230, 230);
+  font-family: 'Segoe UI', sans-serif;
+  padding: 20px;
+}
+
+.signup-box {
+  background: rgb(40, 40, 40);
+  border: 1px solid rgb(60, 60, 60);
+  padding: 30px 40px;
+  border-radius: 12px;
+  max-width: 400px;
+  width: 100%;
+  box-shadow: 0 0 15px rgba(0, 255, 150, 0.1);
+}
+
+.app-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: rgb(0, 255, 150);
+  text-align: center;
+}
+
+.description {
+  font-size: 14px;
+  margin-bottom: 20px;
+  line-height: 1.5;
+  text-align: center;
+  color: rgb(180, 180, 180);
+}
+
+.signup-form input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 8px;
+  background: rgb(60, 60, 60);
+  color: rgb(255, 255, 255);
+}
+
+.signup-form button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  background: rgb(0, 255, 150);
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.signup-form button:hover {
+  background: rgb(0, 200, 120);
+}
+
+.error-message {
+  color: rgb(255, 80, 80);
+  margin-top: 8px;
+  text-align: center;
+}
+
+.login-link {
+  text-align: center;
+  margin-top: 15px;
+  color: rgb(170, 170, 170);
+}
+
+.login-link a {
+  color: rgb(0, 255, 150);
+  text-decoration: none;
+}
+
+.login-link a:hover {
+  text-decoration: underline;
+}
