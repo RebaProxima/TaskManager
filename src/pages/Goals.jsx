@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { db } from '../firebase'
 import { collection, addDoc, onSnapshot, doc, deleteDoc } from 'firebase/firestore'
-import './TaskList.css' // or use Goals.css if you want
+import './TaskList.css'
 
 function Goals() {
   const [goals, setGoals] = useState([])

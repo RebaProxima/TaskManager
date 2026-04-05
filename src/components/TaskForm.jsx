@@ -26,7 +26,7 @@ function TaskForm() {
       type,
       completed: false,
       createdAt: Timestamp.now(),
-      userId: user.uid, // ✅ this is essential!
+      userId: user.uid,
     };
 
     if (type === 'standard') {

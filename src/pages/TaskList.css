@@ -166,7 +166,6 @@ ul.history-list {
   box-shadow: 0 0 30px rgb(0, 255, 244);
 }
 
-/* Completed tasks style */
 .done-item {
   border-left: 6px solid rgb(0, 255, 195);
   color: rgba(176, 255, 248, 0.85);
@@ -174,7 +173,6 @@ ul.history-list {
   user-select: text;
 }
 
-/* Failed tasks style */
 .fail-item {
   border-left: 6px solid rgb(255, 80, 80);
   color: rgba(255, 100, 100, 0.85);
